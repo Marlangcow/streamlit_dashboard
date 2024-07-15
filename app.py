@@ -8,6 +8,7 @@ st.title('Sample Streamlit Dashboard')
 
 st.title('First Streamlit Dashboard')
 st.button('Click')
+st.audio('MusicSample.mp3')
 
 # Sidebar for user input
 st.sidebar.header('User Input Parameters')
