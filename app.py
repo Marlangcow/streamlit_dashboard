@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 st.title('Sample Streamlit Dashboard')
 
 st.title('First Streamlit Dashboard')
+st.button('Click')
 
 # Sidebar for user input
 st.sidebar.header('User Input Parameters')
