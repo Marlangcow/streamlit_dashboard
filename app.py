@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 # Title of the dashboard
 st.title('Sample Streamlit Dashboard')
 
+titanic = pd.read_csv("./data/titanic.csv")
+st.write(titanic)
+
 st.title('First Streamlit Dashboard')
 st.button('Click')
 st.image('https://res.heraldm.com/content/image/2015/03/06/20150306001045_0.jpg')
@@ -40,5 +43,3 @@ map_data = pd.DataFrame(
     columns=['lat', 'lon'])
 st.map(map_data)
 
-titanic = pd.read_csv("./data/titanic.csv")
-st.write(titanic)
